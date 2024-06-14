@@ -1,19 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-import HomeCarousel from './Components/Home Page Components/HomeCarousel';
-import HomeMain from './Components/Home Page Components/HomeMain';
+import logo from "./logo.svg";
+import "./App.css";
+import HomeMain from "./Components/Home Page Components/HomeMain";
+import Welcom from "./Components/Welcom Components/Welcom";
+import HistoryRJ from "./Components/History Of RJ Com/HistoryRJ";
+import Footer from "./Components/Footer Com/Footer";
 
 function App() {
   return (
     <>
-      {/* <Welcom />
-      <Carousel/>
-      <Contact/> */}
-      {/* <Main/> */}
-      <HomeMain/>
-      {/* <Navbar/> */}
-      
-      
+      <HomeMain />
+      <Welcom />
+      <HistoryRJ />
+      {/* <Footer/> */}
     </>
   );
 }
