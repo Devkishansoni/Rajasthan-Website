@@ -30,7 +30,7 @@ export default function HomeCarousel() {
   };
 
   useEffect(() => {
-    const interval = setInterval(Increment, 5000);
+    const interval = setInterval(Increment, 2000);
     return () => clearInterval(interval);
   }, []);
 
